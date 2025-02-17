@@ -1,0 +1,83 @@
+.nav {
+  background-color: #282C34;
+  color: #C8D9E6;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.titulo {
+  background-color: #2F4156;
+  text-align: center;
+  padding: 60px 0px 50px;
+  color: #C8D9E6;
+}
+
+.texto_p {
+  padding: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.botao {
+  background-color: #C8D9E6;
+  color: #282C34;
+  font-size: 14px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.botao:hover {
+  background-color: #c8d9e69f;
+}
+
+.requisitos {
+  text-align: center;
+  padding: 80px;
+  color: #282C34;
+}
+
+.texto_h2 {
+  padding: 10px;
+}
+
+.main_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0px 60px;
+}
+
+.card {
+  background-color: #2F4156;
+  width: 350px;
+  height: 150px;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.card_titulo {
+  padding-bottom: 20px;
+  color: #C8D9E6;
+}
+
+.card:hover {
+  transform: scale(1.10);
+  transition: 0.5s;
+}
+
+.footer {
+  background-color: #282C3444;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  color: #282C34;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
